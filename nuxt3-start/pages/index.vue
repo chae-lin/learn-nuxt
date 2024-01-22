@@ -62,7 +62,7 @@ const {
 // return products
 
 const moveToDetail = (id) => {
-  console.log(id);
+  navigateTo(`detaile/${id}`);
 };
 </script>
 
